@@ -127,7 +127,7 @@ damage_sound = pygame.mixer.Sound('../audio/damage.ogg')
 damage_sound.set_volume(0.1)
 music_sound = pygame.mixer.Sound('../audio/game_music.wav')
 music_sound.set_volume(0.1)
-music_sound.play()
+music_sound.play(loops = -1)
 
 # Grp, Sprite creations
 
